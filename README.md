@@ -1,5 +1,6 @@
 MapReduce Lite is a C++ implementation of the MapReduce programming paradigm.
 
+
 ## Pros
 
 First of all, MapReduce Lite is Lite!
@@ -62,3 +63,7 @@ Please refer to the [HowToInstall](doc/install.md) document.
 ## Updates
 
   1. 2013-10-4: MapReduce Lite supports Mac OS X and FreeBSD in addition to Linux. You can build your MapReduce Lite programs using GCC or Clang.
+
+
+## 
+ resource manager mesos
