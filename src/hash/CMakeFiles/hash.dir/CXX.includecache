@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/md5_hash.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/md5_hash.cc
 string.h
 -
 string
 -
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/src/base/common.h
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/simple_hash.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/simple_hash.cc
 src/hash/simple_hash.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/src/hash/simple_hash.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/src/hash/simple_hash.h
 string
 -
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/logging.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/logging.cc.o"
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/random.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/random.cc.o"
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/stream_wrapper.cc.o"
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/varint32.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/varint32.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/logging.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/logging.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/random.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/random.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/stream_wrapper.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/varint32.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/varint32.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

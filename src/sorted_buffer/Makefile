@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/progress.marks
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/progress.marks
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/clean
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ sorted_buffer_test: src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/rule
 
 # fast build rule for target.
 sorted_buffer_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build
 .PHONY : sorted_buffer_test/fast
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ memory_allocator_test: src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/ru
 
 # fast build rule for target.
 memory_allocator_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build
 .PHONY : memory_allocator_test/fast
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/memory_piece_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_piece_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_piece_test.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/memory_piece_test.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ memory_piece_test: src/sorted_buffer/CMakeFiles/memory_piece_test.dir/rule
 
 # fast build rule for target.
 memory_piece_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build
 .PHONY : memory_piece_test/fast
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ memory_piece_less_than_test: src/sorted_buffer/CMakeFiles/memory_piece_less_than
 
 # fast build rule for target.
 memory_piece_less_than_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build
 .PHONY : memory_piece_less_than_test/fast
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/rule
 
 # Convenience name for target.
@@ -215,12 +215,12 @@ memory_piece_io_test: src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/rule
 
 # fast build rule for target.
 memory_piece_io_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build
 .PHONY : memory_piece_io_test/fast
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/sorted_buffer.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ sorted_buffer: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/rule
 
 # fast build rule for target.
 sorted_buffer/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build
 .PHONY : sorted_buffer/fast
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/rule
 
 # Convenience name for target.
@@ -245,12 +245,12 @@ sorted_buffer_iterator_test: src/sorted_buffer/CMakeFiles/sorted_buffer_iterator
 
 # fast build rule for target.
 sorted_buffer_iterator_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build
 .PHONY : sorted_buffer_iterator_test/fast
 
 # Convenience name for target.
 src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/rule
 .PHONY : src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/rule
 
 # Convenience name for target.
@@ -260,7 +260,7 @@ sorted_buffer_regression_test: src/sorted_buffer/CMakeFiles/sorted_buffer_regres
 
 # fast build rule for target.
 sorted_buffer_regression_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build
 .PHONY : sorted_buffer_regression_test/fast
 
 memory_allocator.o: memory_allocator.cc.o
@@ -269,7 +269,7 @@ memory_allocator.o: memory_allocator.cc.o
 
 # target to build an object file
 memory_allocator.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o
 .PHONY : memory_allocator.cc.o
 
 memory_allocator.i: memory_allocator.cc.i
@@ -278,7 +278,7 @@ memory_allocator.i: memory_allocator.cc.i
 
 # target to preprocess a source file
 memory_allocator.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.i
 .PHONY : memory_allocator.cc.i
 
 memory_allocator.s: memory_allocator.cc.s
@@ -287,7 +287,7 @@ memory_allocator.s: memory_allocator.cc.s
 
 # target to generate assembly for a file
 memory_allocator.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.s
 .PHONY : memory_allocator.cc.s
 
 memory_allocator_test.o: memory_allocator_test.cc.o
@@ -296,7 +296,7 @@ memory_allocator_test.o: memory_allocator_test.cc.o
 
 # target to build an object file
 memory_allocator_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/memory_allocator_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/memory_allocator_test.cc.o
 .PHONY : memory_allocator_test.cc.o
 
 memory_allocator_test.i: memory_allocator_test.cc.i
@@ -305,7 +305,7 @@ memory_allocator_test.i: memory_allocator_test.cc.i
 
 # target to preprocess a source file
 memory_allocator_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/memory_allocator_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/memory_allocator_test.cc.i
 .PHONY : memory_allocator_test.cc.i
 
 memory_allocator_test.s: memory_allocator_test.cc.s
@@ -314,7 +314,7 @@ memory_allocator_test.s: memory_allocator_test.cc.s
 
 # target to generate assembly for a file
 memory_allocator_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/memory_allocator_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_allocator_test.dir/memory_allocator_test.cc.s
 .PHONY : memory_allocator_test.cc.s
 
 memory_piece.o: memory_piece.cc.o
@@ -323,7 +323,7 @@ memory_piece.o: memory_piece.cc.o
 
 # target to build an object file
 memory_piece.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o
 .PHONY : memory_piece.cc.o
 
 memory_piece.i: memory_piece.cc.i
@@ -332,7 +332,7 @@ memory_piece.i: memory_piece.cc.i
 
 # target to preprocess a source file
 memory_piece.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.i
 .PHONY : memory_piece.cc.i
 
 memory_piece.s: memory_piece.cc.s
@@ -341,7 +341,7 @@ memory_piece.s: memory_piece.cc.s
 
 # target to generate assembly for a file
 memory_piece.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.s
 .PHONY : memory_piece.cc.s
 
 memory_piece_io_test.o: memory_piece_io_test.cc.o
@@ -350,7 +350,7 @@ memory_piece_io_test.o: memory_piece_io_test.cc.o
 
 # target to build an object file
 memory_piece_io_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/memory_piece_io_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/memory_piece_io_test.cc.o
 .PHONY : memory_piece_io_test.cc.o
 
 memory_piece_io_test.i: memory_piece_io_test.cc.i
@@ -359,7 +359,7 @@ memory_piece_io_test.i: memory_piece_io_test.cc.i
 
 # target to preprocess a source file
 memory_piece_io_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/memory_piece_io_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/memory_piece_io_test.cc.i
 .PHONY : memory_piece_io_test.cc.i
 
 memory_piece_io_test.s: memory_piece_io_test.cc.s
@@ -368,7 +368,7 @@ memory_piece_io_test.s: memory_piece_io_test.cc.s
 
 # target to generate assembly for a file
 memory_piece_io_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/memory_piece_io_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_io_test.dir/memory_piece_io_test.cc.s
 .PHONY : memory_piece_io_test.cc.s
 
 memory_piece_less_than_test.o: memory_piece_less_than_test.cc.o
@@ -377,7 +377,7 @@ memory_piece_less_than_test.o: memory_piece_less_than_test.cc.o
 
 # target to build an object file
 memory_piece_less_than_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/memory_piece_less_than_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/memory_piece_less_than_test.cc.o
 .PHONY : memory_piece_less_than_test.cc.o
 
 memory_piece_less_than_test.i: memory_piece_less_than_test.cc.i
@@ -386,7 +386,7 @@ memory_piece_less_than_test.i: memory_piece_less_than_test.cc.i
 
 # target to preprocess a source file
 memory_piece_less_than_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/memory_piece_less_than_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/memory_piece_less_than_test.cc.i
 .PHONY : memory_piece_less_than_test.cc.i
 
 memory_piece_less_than_test.s: memory_piece_less_than_test.cc.s
@@ -395,7 +395,7 @@ memory_piece_less_than_test.s: memory_piece_less_than_test.cc.s
 
 # target to generate assembly for a file
 memory_piece_less_than_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/memory_piece_less_than_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_less_than_test.dir/memory_piece_less_than_test.cc.s
 .PHONY : memory_piece_less_than_test.cc.s
 
 memory_piece_test.o: memory_piece_test.cc.o
@@ -404,7 +404,7 @@ memory_piece_test.o: memory_piece_test.cc.o
 
 # target to build an object file
 memory_piece_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/memory_piece_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/memory_piece_test.cc.o
 .PHONY : memory_piece_test.cc.o
 
 memory_piece_test.i: memory_piece_test.cc.i
@@ -413,7 +413,7 @@ memory_piece_test.i: memory_piece_test.cc.i
 
 # target to preprocess a source file
 memory_piece_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/memory_piece_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/memory_piece_test.cc.i
 .PHONY : memory_piece_test.cc.i
 
 memory_piece_test.s: memory_piece_test.cc.s
@@ -422,7 +422,7 @@ memory_piece_test.s: memory_piece_test.cc.s
 
 # target to generate assembly for a file
 memory_piece_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/memory_piece_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/memory_piece_test.dir/build.make src/sorted_buffer/CMakeFiles/memory_piece_test.dir/memory_piece_test.cc.s
 .PHONY : memory_piece_test.cc.s
 
 sorted_buffer.o: sorted_buffer.cc.o
@@ -431,7 +431,7 @@ sorted_buffer.o: sorted_buffer.cc.o
 
 # target to build an object file
 sorted_buffer.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o
 .PHONY : sorted_buffer.cc.o
 
 sorted_buffer.i: sorted_buffer.cc.i
@@ -440,7 +440,7 @@ sorted_buffer.i: sorted_buffer.cc.i
 
 # target to preprocess a source file
 sorted_buffer.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.i
 .PHONY : sorted_buffer.cc.i
 
 sorted_buffer.s: sorted_buffer.cc.s
@@ -449,7 +449,7 @@ sorted_buffer.s: sorted_buffer.cc.s
 
 # target to generate assembly for a file
 sorted_buffer.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.s
 .PHONY : sorted_buffer.cc.s
 
 sorted_buffer_iterator.o: sorted_buffer_iterator.cc.o
@@ -458,7 +458,7 @@ sorted_buffer_iterator.o: sorted_buffer_iterator.cc.o
 
 # target to build an object file
 sorted_buffer_iterator.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o
 .PHONY : sorted_buffer_iterator.cc.o
 
 sorted_buffer_iterator.i: sorted_buffer_iterator.cc.i
@@ -467,7 +467,7 @@ sorted_buffer_iterator.i: sorted_buffer_iterator.cc.i
 
 # target to preprocess a source file
 sorted_buffer_iterator.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.i
 .PHONY : sorted_buffer_iterator.cc.i
 
 sorted_buffer_iterator.s: sorted_buffer_iterator.cc.s
@@ -476,7 +476,7 @@ sorted_buffer_iterator.s: sorted_buffer_iterator.cc.s
 
 # target to generate assembly for a file
 sorted_buffer_iterator.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.s
 .PHONY : sorted_buffer_iterator.cc.s
 
 sorted_buffer_iterator_test.o: sorted_buffer_iterator_test.cc.o
@@ -485,7 +485,7 @@ sorted_buffer_iterator_test.o: sorted_buffer_iterator_test.cc.o
 
 # target to build an object file
 sorted_buffer_iterator_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/sorted_buffer_iterator_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/sorted_buffer_iterator_test.cc.o
 .PHONY : sorted_buffer_iterator_test.cc.o
 
 sorted_buffer_iterator_test.i: sorted_buffer_iterator_test.cc.i
@@ -494,7 +494,7 @@ sorted_buffer_iterator_test.i: sorted_buffer_iterator_test.cc.i
 
 # target to preprocess a source file
 sorted_buffer_iterator_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/sorted_buffer_iterator_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/sorted_buffer_iterator_test.cc.i
 .PHONY : sorted_buffer_iterator_test.cc.i
 
 sorted_buffer_iterator_test.s: sorted_buffer_iterator_test.cc.s
@@ -503,7 +503,7 @@ sorted_buffer_iterator_test.s: sorted_buffer_iterator_test.cc.s
 
 # target to generate assembly for a file
 sorted_buffer_iterator_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/sorted_buffer_iterator_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_iterator_test.dir/sorted_buffer_iterator_test.cc.s
 .PHONY : sorted_buffer_iterator_test.cc.s
 
 sorted_buffer_regression_test.o: sorted_buffer_regression_test.cc.o
@@ -512,7 +512,7 @@ sorted_buffer_regression_test.o: sorted_buffer_regression_test.cc.o
 
 # target to build an object file
 sorted_buffer_regression_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/sorted_buffer_regression_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/sorted_buffer_regression_test.cc.o
 .PHONY : sorted_buffer_regression_test.cc.o
 
 sorted_buffer_regression_test.i: sorted_buffer_regression_test.cc.i
@@ -521,7 +521,7 @@ sorted_buffer_regression_test.i: sorted_buffer_regression_test.cc.i
 
 # target to preprocess a source file
 sorted_buffer_regression_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/sorted_buffer_regression_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/sorted_buffer_regression_test.cc.i
 .PHONY : sorted_buffer_regression_test.cc.i
 
 sorted_buffer_regression_test.s: sorted_buffer_regression_test.cc.s
@@ -530,7 +530,7 @@ sorted_buffer_regression_test.s: sorted_buffer_regression_test.cc.s
 
 # target to generate assembly for a file
 sorted_buffer_regression_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/sorted_buffer_regression_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_regression_test.dir/sorted_buffer_regression_test.cc.s
 .PHONY : sorted_buffer_regression_test.cc.s
 
 sorted_buffer_test.o: sorted_buffer_test.cc.o
@@ -539,7 +539,7 @@ sorted_buffer_test.o: sorted_buffer_test.cc.o
 
 # target to build an object file
 sorted_buffer_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/sorted_buffer_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/sorted_buffer_test.cc.o
 .PHONY : sorted_buffer_test.cc.o
 
 sorted_buffer_test.i: sorted_buffer_test.cc.i
@@ -548,7 +548,7 @@ sorted_buffer_test.i: sorted_buffer_test.cc.i
 
 # target to preprocess a source file
 sorted_buffer_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/sorted_buffer_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/sorted_buffer_test.cc.i
 .PHONY : sorted_buffer_test.cc.i
 
 sorted_buffer_test.s: sorted_buffer_test.cc.s
@@ -557,7 +557,7 @@ sorted_buffer_test.s: sorted_buffer_test.cc.s
 
 # target to generate assembly for a file
 sorted_buffer_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/sorted_buffer_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/build.make src/sorted_buffer/CMakeFiles/sorted_buffer_test.dir/sorted_buffer_test.cc.s
 .PHONY : sorted_buffer_test.cc.s
 
 # Help Target
@@ -623,6 +623,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

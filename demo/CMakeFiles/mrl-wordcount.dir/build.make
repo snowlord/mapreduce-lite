@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # Include any dependencies generated for this target.
-include src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/depend.make
+include demo/CMakeFiles/mrl-wordcount.dir/depend.make
 
 # Include the progress variables for this target.
-include src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/progress.make
+include demo/CMakeFiles/mrl-wordcount.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/flags.make
+include demo/CMakeFiles/mrl-wordcount.dir/flags.make
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/flags.make
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o: src/mapreduce_lite/demo/wordcount.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrl-wordcount.dir/wordcount.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount.cc
+demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o: demo/CMakeFiles/mrl-wordcount.dir/flags.make
+demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o: demo/wordcount.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mrl-wordcount.dir/wordcount.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount.cc
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.i: cmake_force
+demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mrl-wordcount.dir/wordcount.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount.cc > CMakeFiles/mrl-wordcount.dir/wordcount.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount.cc > CMakeFiles/mrl-wordcount.dir/wordcount.cc.i
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.s: cmake_force
+demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mrl-wordcount.dir/wordcount.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount.cc -o CMakeFiles/mrl-wordcount.dir/wordcount.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount.cc -o CMakeFiles/mrl-wordcount.dir/wordcount.cc.s
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires:
+demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires:
 
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires
-	$(MAKE) -f src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides.build
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides
+demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides: demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires
+	$(MAKE) -f demo/CMakeFiles/mrl-wordcount.dir/build.make demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides.build
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides.build: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
+demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.provides.build: demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
 
 
 # Object files for target mrl-wordcount
@@ -88,22 +88,22 @@ mrl__wordcount_OBJECTS = \
 # External object files for target mrl-wordcount
 mrl__wordcount_EXTERNAL_OBJECTS =
 
-src/mapreduce_lite/demo/mrl-wordcount: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
-src/mapreduce_lite/demo/mrl-wordcount: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make
-src/mapreduce_lite/demo/mrl-wordcount: src/mapreduce_lite/libmapreduce_lite.a
-src/mapreduce_lite/demo/mrl-wordcount: src/sorted_buffer/libsorted_buffer.a
-src/mapreduce_lite/demo/mrl-wordcount: src/strutil/libstrutil.a
-src/mapreduce_lite/demo/mrl-wordcount: src/hash/libhash.a
-src/mapreduce_lite/demo/mrl-wordcount: src/base/libbase.a
-src/mapreduce_lite/demo/mrl-wordcount: src/system/libsystem.a
-src/mapreduce_lite/demo/mrl-wordcount: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mrl-wordcount"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mrl-wordcount.dir/link.txt --verbose=$(VERBOSE)
+demo/mrl-wordcount: demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
+demo/mrl-wordcount: demo/CMakeFiles/mrl-wordcount.dir/build.make
+demo/mrl-wordcount: src/mapreduce_lite/libmapreduce_lite.a
+demo/mrl-wordcount: src/sorted_buffer/libsorted_buffer.a
+demo/mrl-wordcount: src/strutil/libstrutil.a
+demo/mrl-wordcount: src/hash/libhash.a
+demo/mrl-wordcount: src/base/libbase.a
+demo/mrl-wordcount: src/system/libsystem.a
+demo/mrl-wordcount: demo/CMakeFiles/mrl-wordcount.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mrl-wordcount"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mrl-wordcount.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build: src/mapreduce_lite/demo/mrl-wordcount
+demo/CMakeFiles/mrl-wordcount.dir/build: demo/mrl-wordcount
 
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/build
 
 # Object files for target mrl-wordcount
 mrl__wordcount_OBJECTS = \
@@ -112,32 +112,32 @@ mrl__wordcount_OBJECTS = \
 # External object files for target mrl-wordcount
 mrl__wordcount_EXTERNAL_OBJECTS =
 
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/mapreduce_lite/libmapreduce_lite.a
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/sorted_buffer/libsorted_buffer.a
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/strutil/libstrutil.a
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/hash/libhash.a
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/base/libbase.a
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/system/libsystem.a
-src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/relink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CMakeFiles/CMakeRelink.dir/mrl-wordcount"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mrl-wordcount.dir/relink.txt --verbose=$(VERBOSE)
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: demo/CMakeFiles/mrl-wordcount.dir/build.make
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/mapreduce_lite/libmapreduce_lite.a
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/sorted_buffer/libsorted_buffer.a
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/strutil/libstrutil.a
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/hash/libhash.a
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/base/libbase.a
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: src/system/libsystem.a
+demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount: demo/CMakeFiles/mrl-wordcount.dir/relink.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CMakeFiles/CMakeRelink.dir/mrl-wordcount"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mrl-wordcount.dir/relink.txt --verbose=$(VERBOSE)
 
 # Rule to relink during preinstall.
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/preinstall: src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount
+demo/CMakeFiles/mrl-wordcount.dir/preinstall: demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount
 
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/preinstall
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/preinstall
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/requires: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires
+demo/CMakeFiles/mrl-wordcount.dir/requires: demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o.requires
 
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/requires
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/requires
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo && $(CMAKE_COMMAND) -P CMakeFiles/mrl-wordcount.dir/cmake_clean.cmake
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/clean
+demo/CMakeFiles/mrl-wordcount.dir/clean:
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo && $(CMAKE_COMMAND) -P CMakeFiles/mrl-wordcount.dir/cmake_clean.cmake
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/clean
 
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/depend
+demo/CMakeFiles/mrl-wordcount.dir/depend:
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/CMakeFiles/mrl-wordcount.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/depend
 

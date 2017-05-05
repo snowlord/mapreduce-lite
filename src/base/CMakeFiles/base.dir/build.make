@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # Include any dependencies generated for this target.
 include src/base/CMakeFiles/base.dir/depend.make
@@ -59,16 +59,16 @@ include src/base/CMakeFiles/base.dir/flags.make
 
 src/base/CMakeFiles/base.dir/logging.cc.o: src/base/CMakeFiles/base.dir/flags.make
 src/base/CMakeFiles/base.dir/logging.cc.o: src/base/logging.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/base/CMakeFiles/base.dir/logging.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/logging.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/logging.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/base/CMakeFiles/base.dir/logging.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/logging.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/logging.cc
 
 src/base/CMakeFiles/base.dir/logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/logging.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/logging.cc > CMakeFiles/base.dir/logging.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/logging.cc > CMakeFiles/base.dir/logging.cc.i
 
 src/base/CMakeFiles/base.dir/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/logging.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/logging.cc -o CMakeFiles/base.dir/logging.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/logging.cc -o CMakeFiles/base.dir/logging.cc.s
 
 src/base/CMakeFiles/base.dir/logging.cc.o.requires:
 
@@ -83,16 +83,16 @@ src/base/CMakeFiles/base.dir/logging.cc.o.provides.build: src/base/CMakeFiles/ba
 
 src/base/CMakeFiles/base.dir/random.cc.o: src/base/CMakeFiles/base.dir/flags.make
 src/base/CMakeFiles/base.dir/random.cc.o: src/base/random.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/base/CMakeFiles/base.dir/random.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/random.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/random.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/base/CMakeFiles/base.dir/random.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/random.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/random.cc
 
 src/base/CMakeFiles/base.dir/random.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/random.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/random.cc > CMakeFiles/base.dir/random.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/random.cc > CMakeFiles/base.dir/random.cc.i
 
 src/base/CMakeFiles/base.dir/random.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/random.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/random.cc -o CMakeFiles/base.dir/random.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/random.cc -o CMakeFiles/base.dir/random.cc.s
 
 src/base/CMakeFiles/base.dir/random.cc.o.requires:
 
@@ -107,16 +107,16 @@ src/base/CMakeFiles/base.dir/random.cc.o.provides.build: src/base/CMakeFiles/bas
 
 src/base/CMakeFiles/base.dir/varint32.cc.o: src/base/CMakeFiles/base.dir/flags.make
 src/base/CMakeFiles/base.dir/varint32.cc.o: src/base/varint32.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/base/CMakeFiles/base.dir/varint32.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/varint32.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/varint32.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/base/CMakeFiles/base.dir/varint32.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/varint32.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/varint32.cc
 
 src/base/CMakeFiles/base.dir/varint32.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/varint32.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/varint32.cc > CMakeFiles/base.dir/varint32.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/varint32.cc > CMakeFiles/base.dir/varint32.cc.i
 
 src/base/CMakeFiles/base.dir/varint32.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/varint32.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/varint32.cc -o CMakeFiles/base.dir/varint32.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/varint32.cc -o CMakeFiles/base.dir/varint32.cc.s
 
 src/base/CMakeFiles/base.dir/varint32.cc.o.requires:
 
@@ -131,16 +131,16 @@ src/base/CMakeFiles/base.dir/varint32.cc.o.provides.build: src/base/CMakeFiles/b
 
 src/base/CMakeFiles/base.dir/stream_wrapper.cc.o: src/base/CMakeFiles/base.dir/flags.make
 src/base/CMakeFiles/base.dir/stream_wrapper.cc.o: src/base/stream_wrapper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/base/CMakeFiles/base.dir/stream_wrapper.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/stream_wrapper.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/base/CMakeFiles/base.dir/stream_wrapper.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base.dir/stream_wrapper.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc
 
 src/base/CMakeFiles/base.dir/stream_wrapper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base.dir/stream_wrapper.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc > CMakeFiles/base.dir/stream_wrapper.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc > CMakeFiles/base.dir/stream_wrapper.cc.i
 
 src/base/CMakeFiles/base.dir/stream_wrapper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base.dir/stream_wrapper.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc -o CMakeFiles/base.dir/stream_wrapper.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/stream_wrapper.cc -o CMakeFiles/base.dir/stream_wrapper.cc.s
 
 src/base/CMakeFiles/base.dir/stream_wrapper.cc.o.requires:
 
@@ -169,9 +169,9 @@ src/base/libbase.a: src/base/CMakeFiles/base.dir/varint32.cc.o
 src/base/libbase.a: src/base/CMakeFiles/base.dir/stream_wrapper.cc.o
 src/base/libbase.a: src/base/CMakeFiles/base.dir/build.make
 src/base/libbase.a: src/base/CMakeFiles/base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libbase.a"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -P CMakeFiles/base.dir/cmake_clean_target.cmake
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libbase.a"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -P CMakeFiles/base.dir/cmake_clean_target.cmake
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/base/CMakeFiles/base.dir/build: src/base/libbase.a
@@ -186,10 +186,10 @@ src/base/CMakeFiles/base.dir/requires: src/base/CMakeFiles/base.dir/stream_wrapp
 .PHONY : src/base/CMakeFiles/base.dir/requires
 
 src/base/CMakeFiles/base.dir/clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -P CMakeFiles/base.dir/cmake_clean.cmake
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -P CMakeFiles/base.dir/cmake_clean.cmake
 .PHONY : src/base/CMakeFiles/base.dir/clean
 
 src/base/CMakeFiles/base.dir/depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/base/CMakeFiles/base.dir/depend
 

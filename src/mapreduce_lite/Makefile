@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/CMakeFiles/progress.marks
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/CMakeFiles/progress.marks
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/clean
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ signaling_queue_test: src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/rul
 
 # fast build rule for target.
 signaling_queue_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build
 .PHONY : signaling_queue_test/fast
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ mapreduce_lite: src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/rule
 
 # fast build rule for target.
 mapreduce_lite/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build
 .PHONY : mapreduce_lite/fast
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/utils_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/utils_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/utils_test.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/utils_test.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ utils_test: src/mapreduce_lite/CMakeFiles/utils_test.dir/rule
 
 # fast build rule for target.
 utils_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/build
 .PHONY : utils_test/fast
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ socket_communicator_test: src/mapreduce_lite/CMakeFiles/socket_communicator_test
 
 # fast build rule for target.
 socket_communicator_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build
 .PHONY : socket_communicator_test/fast
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/protofile_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/protofile_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/protofile_test.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/protofile_test.dir/rule
 
 # Convenience name for target.
@@ -215,12 +215,12 @@ protofile_test: src/mapreduce_lite/CMakeFiles/protofile_test.dir/rule
 
 # fast build rule for target.
 protofile_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/build
 .PHONY : protofile_test/fast
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ tcp_socket_test: src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/rule
 
 # fast build rule for target.
 tcp_socket_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build
 .PHONY : tcp_socket_test/fast
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/registerer_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/registerer_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/registerer_test.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/registerer_test.dir/rule
 
 # Convenience name for target.
@@ -245,12 +245,12 @@ registerer_test: src/mapreduce_lite/CMakeFiles/registerer_test.dir/rule
 
 # fast build rule for target.
 registerer_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/build
 .PHONY : registerer_test/fast
 
 # Convenience name for target.
 src/mapreduce_lite/CMakeFiles/reader_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/reader_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/CMakeFiles/reader_test.dir/rule
 .PHONY : src/mapreduce_lite/CMakeFiles/reader_test.dir/rule
 
 # Convenience name for target.
@@ -260,7 +260,7 @@ reader_test: src/mapreduce_lite/CMakeFiles/reader_test.dir/rule
 
 # fast build rule for target.
 reader_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/build
 .PHONY : reader_test/fast
 
 flags.o: flags.cc.o
@@ -269,7 +269,7 @@ flags.o: flags.cc.o
 
 # target to build an object file
 flags.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/flags.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/flags.cc.o
 .PHONY : flags.cc.o
 
 flags.i: flags.cc.i
@@ -278,7 +278,7 @@ flags.i: flags.cc.i
 
 # target to preprocess a source file
 flags.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/flags.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/flags.cc.i
 .PHONY : flags.cc.i
 
 flags.s: flags.cc.s
@@ -287,7 +287,7 @@ flags.s: flags.cc.s
 
 # target to generate assembly for a file
 flags.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/flags.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/flags.cc.s
 .PHONY : flags.cc.s
 
 mapreduce_lite.o: mapreduce_lite.cc.o
@@ -296,7 +296,7 @@ mapreduce_lite.o: mapreduce_lite.cc.o
 
 # target to build an object file
 mapreduce_lite.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_lite.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_lite.cc.o
 .PHONY : mapreduce_lite.cc.o
 
 mapreduce_lite.i: mapreduce_lite.cc.i
@@ -305,7 +305,7 @@ mapreduce_lite.i: mapreduce_lite.cc.i
 
 # target to preprocess a source file
 mapreduce_lite.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_lite.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_lite.cc.i
 .PHONY : mapreduce_lite.cc.i
 
 mapreduce_lite.s: mapreduce_lite.cc.s
@@ -314,7 +314,7 @@ mapreduce_lite.s: mapreduce_lite.cc.s
 
 # target to generate assembly for a file
 mapreduce_lite.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_lite.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_lite.cc.s
 .PHONY : mapreduce_lite.cc.s
 
 mapreduce_main.o: mapreduce_main.cc.o
@@ -323,7 +323,7 @@ mapreduce_main.o: mapreduce_main.cc.o
 
 # target to build an object file
 mapreduce_main.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_main.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_main.cc.o
 .PHONY : mapreduce_main.cc.o
 
 mapreduce_main.i: mapreduce_main.cc.i
@@ -332,7 +332,7 @@ mapreduce_main.i: mapreduce_main.cc.i
 
 # target to preprocess a source file
 mapreduce_main.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_main.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_main.cc.i
 .PHONY : mapreduce_main.cc.i
 
 mapreduce_main.s: mapreduce_main.cc.s
@@ -341,7 +341,7 @@ mapreduce_main.s: mapreduce_main.cc.s
 
 # target to generate assembly for a file
 mapreduce_main.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_main.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/mapreduce_main.cc.s
 .PHONY : mapreduce_main.cc.s
 
 protofile.o: protofile.cc.o
@@ -350,7 +350,7 @@ protofile.o: protofile.cc.o
 
 # target to build an object file
 protofile.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.cc.o
 .PHONY : protofile.cc.o
 
 protofile.i: protofile.cc.i
@@ -359,7 +359,7 @@ protofile.i: protofile.cc.i
 
 # target to preprocess a source file
 protofile.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.cc.i
 .PHONY : protofile.cc.i
 
 protofile.s: protofile.cc.s
@@ -368,7 +368,7 @@ protofile.s: protofile.cc.s
 
 # target to generate assembly for a file
 protofile.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.cc.s
 .PHONY : protofile.cc.s
 
 protofile.pb.o: protofile.pb.cc.o
@@ -377,7 +377,7 @@ protofile.pb.o: protofile.pb.cc.o
 
 # target to build an object file
 protofile.pb.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.pb.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.pb.cc.o
 .PHONY : protofile.pb.cc.o
 
 protofile.pb.i: protofile.pb.cc.i
@@ -386,7 +386,7 @@ protofile.pb.i: protofile.pb.cc.i
 
 # target to preprocess a source file
 protofile.pb.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.pb.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.pb.cc.i
 .PHONY : protofile.pb.cc.i
 
 protofile.pb.s: protofile.pb.cc.s
@@ -395,7 +395,7 @@ protofile.pb.s: protofile.pb.cc.s
 
 # target to generate assembly for a file
 protofile.pb.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.pb.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/protofile.pb.cc.s
 .PHONY : protofile.pb.cc.s
 
 protofile_test.o: protofile_test.cc.o
@@ -404,7 +404,7 @@ protofile_test.o: protofile_test.cc.o
 
 # target to build an object file
 protofile_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/protofile_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/protofile_test.cc.o
 .PHONY : protofile_test.cc.o
 
 protofile_test.i: protofile_test.cc.i
@@ -413,7 +413,7 @@ protofile_test.i: protofile_test.cc.i
 
 # target to preprocess a source file
 protofile_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/protofile_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/protofile_test.cc.i
 .PHONY : protofile_test.cc.i
 
 protofile_test.s: protofile_test.cc.s
@@ -422,7 +422,7 @@ protofile_test.s: protofile_test.cc.s
 
 # target to generate assembly for a file
 protofile_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/protofile_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/protofile_test.dir/build.make src/mapreduce_lite/CMakeFiles/protofile_test.dir/protofile_test.cc.s
 .PHONY : protofile_test.cc.s
 
 reader.o: reader.cc.o
@@ -431,7 +431,7 @@ reader.o: reader.cc.o
 
 # target to build an object file
 reader.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/reader.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/reader.cc.o
 .PHONY : reader.cc.o
 
 reader.i: reader.cc.i
@@ -440,7 +440,7 @@ reader.i: reader.cc.i
 
 # target to preprocess a source file
 reader.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/reader.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/reader.cc.i
 .PHONY : reader.cc.i
 
 reader.s: reader.cc.s
@@ -449,7 +449,7 @@ reader.s: reader.cc.s
 
 # target to generate assembly for a file
 reader.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/reader.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/reader.cc.s
 .PHONY : reader.cc.s
 
 reader_test.o: reader_test.cc.o
@@ -458,7 +458,7 @@ reader_test.o: reader_test.cc.o
 
 # target to build an object file
 reader_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/reader_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/reader_test.cc.o
 .PHONY : reader_test.cc.o
 
 reader_test.i: reader_test.cc.i
@@ -467,7 +467,7 @@ reader_test.i: reader_test.cc.i
 
 # target to preprocess a source file
 reader_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/reader_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/reader_test.cc.i
 .PHONY : reader_test.cc.i
 
 reader_test.s: reader_test.cc.s
@@ -476,7 +476,7 @@ reader_test.s: reader_test.cc.s
 
 # target to generate assembly for a file
 reader_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/reader_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/reader_test.dir/build.make src/mapreduce_lite/CMakeFiles/reader_test.dir/reader_test.cc.s
 .PHONY : reader_test.cc.s
 
 registerer_test.o: registerer_test.cc.o
@@ -485,7 +485,7 @@ registerer_test.o: registerer_test.cc.o
 
 # target to build an object file
 registerer_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/registerer_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/registerer_test.cc.o
 .PHONY : registerer_test.cc.o
 
 registerer_test.i: registerer_test.cc.i
@@ -494,7 +494,7 @@ registerer_test.i: registerer_test.cc.i
 
 # target to preprocess a source file
 registerer_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/registerer_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/registerer_test.cc.i
 .PHONY : registerer_test.cc.i
 
 registerer_test.s: registerer_test.cc.s
@@ -503,7 +503,7 @@ registerer_test.s: registerer_test.cc.s
 
 # target to generate assembly for a file
 registerer_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/registerer_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/registerer_test.dir/build.make src/mapreduce_lite/CMakeFiles/registerer_test.dir/registerer_test.cc.s
 .PHONY : registerer_test.cc.s
 
 signaling_queue.o: signaling_queue.cc.o
@@ -512,7 +512,7 @@ signaling_queue.o: signaling_queue.cc.o
 
 # target to build an object file
 signaling_queue.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/signaling_queue.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/signaling_queue.cc.o
 .PHONY : signaling_queue.cc.o
 
 signaling_queue.i: signaling_queue.cc.i
@@ -521,7 +521,7 @@ signaling_queue.i: signaling_queue.cc.i
 
 # target to preprocess a source file
 signaling_queue.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/signaling_queue.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/signaling_queue.cc.i
 .PHONY : signaling_queue.cc.i
 
 signaling_queue.s: signaling_queue.cc.s
@@ -530,7 +530,7 @@ signaling_queue.s: signaling_queue.cc.s
 
 # target to generate assembly for a file
 signaling_queue.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/signaling_queue.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/signaling_queue.cc.s
 .PHONY : signaling_queue.cc.s
 
 signaling_queue_test.o: signaling_queue_test.cc.o
@@ -539,7 +539,7 @@ signaling_queue_test.o: signaling_queue_test.cc.o
 
 # target to build an object file
 signaling_queue_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/signaling_queue_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/signaling_queue_test.cc.o
 .PHONY : signaling_queue_test.cc.o
 
 signaling_queue_test.i: signaling_queue_test.cc.i
@@ -548,7 +548,7 @@ signaling_queue_test.i: signaling_queue_test.cc.i
 
 # target to preprocess a source file
 signaling_queue_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/signaling_queue_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/signaling_queue_test.cc.i
 .PHONY : signaling_queue_test.cc.i
 
 signaling_queue_test.s: signaling_queue_test.cc.s
@@ -557,7 +557,7 @@ signaling_queue_test.s: signaling_queue_test.cc.s
 
 # target to generate assembly for a file
 signaling_queue_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/signaling_queue_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/build.make src/mapreduce_lite/CMakeFiles/signaling_queue_test.dir/signaling_queue_test.cc.s
 .PHONY : signaling_queue_test.cc.s
 
 socket_communicator.o: socket_communicator.cc.o
@@ -566,7 +566,7 @@ socket_communicator.o: socket_communicator.cc.o
 
 # target to build an object file
 socket_communicator.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/socket_communicator.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/socket_communicator.cc.o
 .PHONY : socket_communicator.cc.o
 
 socket_communicator.i: socket_communicator.cc.i
@@ -575,7 +575,7 @@ socket_communicator.i: socket_communicator.cc.i
 
 # target to preprocess a source file
 socket_communicator.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/socket_communicator.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/socket_communicator.cc.i
 .PHONY : socket_communicator.cc.i
 
 socket_communicator.s: socket_communicator.cc.s
@@ -584,7 +584,7 @@ socket_communicator.s: socket_communicator.cc.s
 
 # target to generate assembly for a file
 socket_communicator.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/socket_communicator.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/socket_communicator.cc.s
 .PHONY : socket_communicator.cc.s
 
 socket_communicator_test.o: socket_communicator_test.cc.o
@@ -593,7 +593,7 @@ socket_communicator_test.o: socket_communicator_test.cc.o
 
 # target to build an object file
 socket_communicator_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/socket_communicator_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/socket_communicator_test.cc.o
 .PHONY : socket_communicator_test.cc.o
 
 socket_communicator_test.i: socket_communicator_test.cc.i
@@ -602,7 +602,7 @@ socket_communicator_test.i: socket_communicator_test.cc.i
 
 # target to preprocess a source file
 socket_communicator_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/socket_communicator_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/socket_communicator_test.cc.i
 .PHONY : socket_communicator_test.cc.i
 
 socket_communicator_test.s: socket_communicator_test.cc.s
@@ -611,7 +611,7 @@ socket_communicator_test.s: socket_communicator_test.cc.s
 
 # target to generate assembly for a file
 socket_communicator_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/socket_communicator_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/build.make src/mapreduce_lite/CMakeFiles/socket_communicator_test.dir/socket_communicator_test.cc.s
 .PHONY : socket_communicator_test.cc.s
 
 tcp_socket.o: tcp_socket.cc.o
@@ -620,7 +620,7 @@ tcp_socket.o: tcp_socket.cc.o
 
 # target to build an object file
 tcp_socket.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/tcp_socket.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/tcp_socket.cc.o
 .PHONY : tcp_socket.cc.o
 
 tcp_socket.i: tcp_socket.cc.i
@@ -629,7 +629,7 @@ tcp_socket.i: tcp_socket.cc.i
 
 # target to preprocess a source file
 tcp_socket.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/tcp_socket.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/tcp_socket.cc.i
 .PHONY : tcp_socket.cc.i
 
 tcp_socket.s: tcp_socket.cc.s
@@ -638,7 +638,7 @@ tcp_socket.s: tcp_socket.cc.s
 
 # target to generate assembly for a file
 tcp_socket.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/tcp_socket.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/build.make src/mapreduce_lite/CMakeFiles/mapreduce_lite.dir/tcp_socket.cc.s
 .PHONY : tcp_socket.cc.s
 
 tcp_socket_test.o: tcp_socket_test.cc.o
@@ -647,7 +647,7 @@ tcp_socket_test.o: tcp_socket_test.cc.o
 
 # target to build an object file
 tcp_socket_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/tcp_socket_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/tcp_socket_test.cc.o
 .PHONY : tcp_socket_test.cc.o
 
 tcp_socket_test.i: tcp_socket_test.cc.i
@@ -656,7 +656,7 @@ tcp_socket_test.i: tcp_socket_test.cc.i
 
 # target to preprocess a source file
 tcp_socket_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/tcp_socket_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/tcp_socket_test.cc.i
 .PHONY : tcp_socket_test.cc.i
 
 tcp_socket_test.s: tcp_socket_test.cc.s
@@ -665,7 +665,7 @@ tcp_socket_test.s: tcp_socket_test.cc.s
 
 # target to generate assembly for a file
 tcp_socket_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/tcp_socket_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/build.make src/mapreduce_lite/CMakeFiles/tcp_socket_test.dir/tcp_socket_test.cc.s
 .PHONY : tcp_socket_test.cc.s
 
 utils_test.o: utils_test.cc.o
@@ -674,7 +674,7 @@ utils_test.o: utils_test.cc.o
 
 # target to build an object file
 utils_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/utils_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/utils_test.cc.o
 .PHONY : utils_test.cc.o
 
 utils_test.i: utils_test.cc.i
@@ -683,7 +683,7 @@ utils_test.i: utils_test.cc.i
 
 # target to preprocess a source file
 utils_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/utils_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/utils_test.cc.i
 .PHONY : utils_test.cc.i
 
 utils_test.s: utils_test.cc.s
@@ -692,7 +692,7 @@ utils_test.s: utils_test.cc.s
 
 # target to generate assembly for a file
 utils_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/utils_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/CMakeFiles/utils_test.dir/build.make src/mapreduce_lite/CMakeFiles/utils_test.dir/utils_test.cc.s
 .PHONY : utils_test.cc.s
 
 # Help Target
@@ -773,6 +773,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

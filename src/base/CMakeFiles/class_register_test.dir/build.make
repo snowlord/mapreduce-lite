@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # Include any dependencies generated for this target.
 include src/base/CMakeFiles/class_register_test.dir/depend.make
@@ -59,16 +59,16 @@ include src/base/CMakeFiles/class_register_test.dir/flags.make
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o: src/base/CMakeFiles/class_register_test.dir/flags.make
 src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o: src/base/class_register_test.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_register_test.dir/class_register_test.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_register_test.dir/class_register_test.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test.cc
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_register_test.dir/class_register_test.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test.cc > CMakeFiles/class_register_test.dir/class_register_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test.cc > CMakeFiles/class_register_test.dir/class_register_test.cc.i
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_register_test.dir/class_register_test.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test.cc -o CMakeFiles/class_register_test.dir/class_register_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test.cc -o CMakeFiles/class_register_test.dir/class_register_test.cc.s
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o.requires:
 
@@ -83,16 +83,16 @@ src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o.provides.bu
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o: src/base/CMakeFiles/class_register_test.dir/flags.make
 src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o: src/base/class_register_test_helper.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_register_test.dir/class_register_test_helper.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc > CMakeFiles/class_register_test.dir/class_register_test_helper.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc > CMakeFiles/class_register_test.dir/class_register_test_helper.cc.i
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_register_test.dir/class_register_test_helper.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc -o CMakeFiles/class_register_test.dir/class_register_test_helper.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc -o CMakeFiles/class_register_test.dir/class_register_test_helper.cc.s
 
 src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o.requires:
 
@@ -118,8 +118,8 @@ src/base/class_register_test: src/base/CMakeFiles/class_register_test.dir/class_
 src/base/class_register_test: src/base/CMakeFiles/class_register_test.dir/build.make
 src/base/class_register_test: src/base/libbase.a
 src/base/class_register_test: src/base/CMakeFiles/class_register_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable class_register_test"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/class_register_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable class_register_test"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/class_register_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/base/CMakeFiles/class_register_test.dir/build: src/base/class_register_test
@@ -132,10 +132,10 @@ src/base/CMakeFiles/class_register_test.dir/requires: src/base/CMakeFiles/class_
 .PHONY : src/base/CMakeFiles/class_register_test.dir/requires
 
 src/base/CMakeFiles/class_register_test.dir/clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -P CMakeFiles/class_register_test.dir/cmake_clean.cmake
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base && $(CMAKE_COMMAND) -P CMakeFiles/class_register_test.dir/cmake_clean.cmake
 .PHONY : src/base/CMakeFiles/class_register_test.dir/clean
 
 src/base/CMakeFiles/class_register_test.dir/depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/class_register_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/class_register_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/base/CMakeFiles/class_register_test.dir/depend
 

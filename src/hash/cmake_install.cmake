@@ -1,4 +1,4 @@
-# Install script for directory: /home/liaolinwei/mesosFwk/mapreduce-lite/src/hash
+# Install script for directory: /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,13 +33,13 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/libhash.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/libhash.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paralgo/hash" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/simple_hash.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/md5_hash.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/simple_hash.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/md5_hash.h"
     )
 endif()
 

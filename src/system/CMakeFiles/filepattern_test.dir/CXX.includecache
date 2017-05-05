@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/filepattern_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/filepattern_test.cc
 stdio.h
 -
 string
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/gtest/gtest.h
 src/strutil/stringprintf.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/src/strutil/stringprintf.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/src/strutil/stringprintf.h
 src/system/filepattern.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/src/system/filepattern.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/src/system/filepattern.h
 
 src/strutil/stringprintf.h
 string

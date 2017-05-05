@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount.cc
 string.h
 -
 iostream
@@ -28,13 +28,13 @@ boost/program_options/variables_map.hpp
 boost/program_options/parsers.hpp
 -
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/src/base/common.h
 src/mapreduce_lite/mapreduce_lite.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/src/mapreduce_lite/mapreduce_lite.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/src/mapreduce_lite/mapreduce_lite.h
 src/sorted_buffer/sorted_buffer_iterator.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/src/sorted_buffer/sorted_buffer_iterator.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/src/sorted_buffer/sorted_buffer_iterator.h
 src/strutil/split_string.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/src/strutil/split_string.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/src/strutil/split_string.h
 
 src/base/class_register.h
 class_register.h

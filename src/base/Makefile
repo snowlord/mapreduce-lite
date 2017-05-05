@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/progress.marks
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/progress.marks
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/clean
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/base/CMakeFiles/varint32_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/varint32_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/varint32_test.dir/rule
 .PHONY : src/base/CMakeFiles/varint32_test.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ varint32_test: src/base/CMakeFiles/varint32_test.dir/rule
 
 # fast build rule for target.
 varint32_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/build
 .PHONY : varint32_test/fast
 
 # Convenience name for target.
 src/base/CMakeFiles/base.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/base.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/base.dir/rule
 .PHONY : src/base/CMakeFiles/base.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ base: src/base/CMakeFiles/base.dir/rule
 
 # fast build rule for target.
 base/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/build
 .PHONY : base/fast
 
 # Convenience name for target.
 src/base/CMakeFiles/class_register_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/class_register_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/class_register_test.dir/rule
 .PHONY : src/base/CMakeFiles/class_register_test.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ class_register_test: src/base/CMakeFiles/class_register_test.dir/rule
 
 # fast build rule for target.
 class_register_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/build
 .PHONY : class_register_test/fast
 
 # Convenience name for target.
 src/base/CMakeFiles/stl-util_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/stl-util_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/stl-util_test.dir/rule
 .PHONY : src/base/CMakeFiles/stl-util_test.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ stl-util_test: src/base/CMakeFiles/stl-util_test.dir/rule
 
 # fast build rule for target.
 stl-util_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/build
 .PHONY : stl-util_test/fast
 
 # Convenience name for target.
 src/base/CMakeFiles/cvector_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/cvector_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/base/CMakeFiles/cvector_test.dir/rule
 .PHONY : src/base/CMakeFiles/cvector_test.dir/rule
 
 # Convenience name for target.
@@ -215,7 +215,7 @@ cvector_test: src/base/CMakeFiles/cvector_test.dir/rule
 
 # fast build rule for target.
 cvector_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/build
 .PHONY : cvector_test/fast
 
 class_register_test.o: class_register_test.cc.o
@@ -224,7 +224,7 @@ class_register_test.o: class_register_test.cc.o
 
 # target to build an object file
 class_register_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.o
 .PHONY : class_register_test.cc.o
 
 class_register_test.i: class_register_test.cc.i
@@ -233,7 +233,7 @@ class_register_test.i: class_register_test.cc.i
 
 # target to preprocess a source file
 class_register_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.i
 .PHONY : class_register_test.cc.i
 
 class_register_test.s: class_register_test.cc.s
@@ -242,7 +242,7 @@ class_register_test.s: class_register_test.cc.s
 
 # target to generate assembly for a file
 class_register_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test.cc.s
 .PHONY : class_register_test.cc.s
 
 class_register_test_helper.o: class_register_test_helper.cc.o
@@ -251,7 +251,7 @@ class_register_test_helper.o: class_register_test_helper.cc.o
 
 # target to build an object file
 class_register_test_helper.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.o
 .PHONY : class_register_test_helper.cc.o
 
 class_register_test_helper.i: class_register_test_helper.cc.i
@@ -260,7 +260,7 @@ class_register_test_helper.i: class_register_test_helper.cc.i
 
 # target to preprocess a source file
 class_register_test_helper.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.i
 .PHONY : class_register_test_helper.cc.i
 
 class_register_test_helper.s: class_register_test_helper.cc.s
@@ -269,7 +269,7 @@ class_register_test_helper.s: class_register_test_helper.cc.s
 
 # target to generate assembly for a file
 class_register_test_helper.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/class_register_test.dir/build.make src/base/CMakeFiles/class_register_test.dir/class_register_test_helper.cc.s
 .PHONY : class_register_test_helper.cc.s
 
 cvector_test.o: cvector_test.cc.o
@@ -278,7 +278,7 @@ cvector_test.o: cvector_test.cc.o
 
 # target to build an object file
 cvector_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.o
 .PHONY : cvector_test.cc.o
 
 cvector_test.i: cvector_test.cc.i
@@ -287,7 +287,7 @@ cvector_test.i: cvector_test.cc.i
 
 # target to preprocess a source file
 cvector_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.i
 .PHONY : cvector_test.cc.i
 
 cvector_test.s: cvector_test.cc.s
@@ -296,7 +296,7 @@ cvector_test.s: cvector_test.cc.s
 
 # target to generate assembly for a file
 cvector_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/cvector_test.dir/build.make src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.s
 .PHONY : cvector_test.cc.s
 
 logging.o: logging.cc.o
@@ -305,7 +305,7 @@ logging.o: logging.cc.o
 
 # target to build an object file
 logging.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/logging.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/logging.cc.o
 .PHONY : logging.cc.o
 
 logging.i: logging.cc.i
@@ -314,7 +314,7 @@ logging.i: logging.cc.i
 
 # target to preprocess a source file
 logging.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/logging.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/logging.cc.i
 .PHONY : logging.cc.i
 
 logging.s: logging.cc.s
@@ -323,7 +323,7 @@ logging.s: logging.cc.s
 
 # target to generate assembly for a file
 logging.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/logging.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/logging.cc.s
 .PHONY : logging.cc.s
 
 random.o: random.cc.o
@@ -332,7 +332,7 @@ random.o: random.cc.o
 
 # target to build an object file
 random.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/random.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/random.cc.o
 .PHONY : random.cc.o
 
 random.i: random.cc.i
@@ -341,7 +341,7 @@ random.i: random.cc.i
 
 # target to preprocess a source file
 random.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/random.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/random.cc.i
 .PHONY : random.cc.i
 
 random.s: random.cc.s
@@ -350,7 +350,7 @@ random.s: random.cc.s
 
 # target to generate assembly for a file
 random.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/random.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/random.cc.s
 .PHONY : random.cc.s
 
 stl-util_test.o: stl-util_test.cc.o
@@ -359,7 +359,7 @@ stl-util_test.o: stl-util_test.cc.o
 
 # target to build an object file
 stl-util_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/stl-util_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/stl-util_test.cc.o
 .PHONY : stl-util_test.cc.o
 
 stl-util_test.i: stl-util_test.cc.i
@@ -368,7 +368,7 @@ stl-util_test.i: stl-util_test.cc.i
 
 # target to preprocess a source file
 stl-util_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/stl-util_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/stl-util_test.cc.i
 .PHONY : stl-util_test.cc.i
 
 stl-util_test.s: stl-util_test.cc.s
@@ -377,7 +377,7 @@ stl-util_test.s: stl-util_test.cc.s
 
 # target to generate assembly for a file
 stl-util_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/stl-util_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/stl-util_test.dir/build.make src/base/CMakeFiles/stl-util_test.dir/stl-util_test.cc.s
 .PHONY : stl-util_test.cc.s
 
 stream_wrapper.o: stream_wrapper.cc.o
@@ -386,7 +386,7 @@ stream_wrapper.o: stream_wrapper.cc.o
 
 # target to build an object file
 stream_wrapper.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/stream_wrapper.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/stream_wrapper.cc.o
 .PHONY : stream_wrapper.cc.o
 
 stream_wrapper.i: stream_wrapper.cc.i
@@ -395,7 +395,7 @@ stream_wrapper.i: stream_wrapper.cc.i
 
 # target to preprocess a source file
 stream_wrapper.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/stream_wrapper.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/stream_wrapper.cc.i
 .PHONY : stream_wrapper.cc.i
 
 stream_wrapper.s: stream_wrapper.cc.s
@@ -404,7 +404,7 @@ stream_wrapper.s: stream_wrapper.cc.s
 
 # target to generate assembly for a file
 stream_wrapper.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/stream_wrapper.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/stream_wrapper.cc.s
 .PHONY : stream_wrapper.cc.s
 
 varint32.o: varint32.cc.o
@@ -413,7 +413,7 @@ varint32.o: varint32.cc.o
 
 # target to build an object file
 varint32.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/varint32.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/varint32.cc.o
 .PHONY : varint32.cc.o
 
 varint32.i: varint32.cc.i
@@ -422,7 +422,7 @@ varint32.i: varint32.cc.i
 
 # target to preprocess a source file
 varint32.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/varint32.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/varint32.cc.i
 .PHONY : varint32.cc.i
 
 varint32.s: varint32.cc.s
@@ -431,7 +431,7 @@ varint32.s: varint32.cc.s
 
 # target to generate assembly for a file
 varint32.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/varint32.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/base.dir/build.make src/base/CMakeFiles/base.dir/varint32.cc.s
 .PHONY : varint32.cc.s
 
 varint32_test.o: varint32_test.cc.o
@@ -440,7 +440,7 @@ varint32_test.o: varint32_test.cc.o
 
 # target to build an object file
 varint32_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/varint32_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/varint32_test.cc.o
 .PHONY : varint32_test.cc.o
 
 varint32_test.i: varint32_test.cc.i
@@ -449,7 +449,7 @@ varint32_test.i: varint32_test.cc.i
 
 # target to preprocess a source file
 varint32_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/varint32_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/varint32_test.cc.i
 .PHONY : varint32_test.cc.i
 
 varint32_test.s: varint32_test.cc.s
@@ -458,7 +458,7 @@ varint32_test.s: varint32_test.cc.s
 
 # target to generate assembly for a file
 varint32_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/varint32_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/base/CMakeFiles/varint32_test.dir/build.make src/base/CMakeFiles/varint32_test.dir/varint32_test.cc.s
 .PHONY : varint32_test.cc.s
 
 # Help Target
@@ -515,6 +515,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

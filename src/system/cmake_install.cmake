@@ -1,4 +1,4 @@
-# Install script for directory: /home/liaolinwei/mesosFwk/mapreduce-lite/src/system
+# Install script for directory: /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,15 +33,15 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/libsystem.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/libsystem.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paralgo/system" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/condition_variable.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/mutex.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/scoped_locker.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/filepattern.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/condition_variable.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/mutex.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/scoped_locker.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/filepattern.h"
     )
 endif()
 

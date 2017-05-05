@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o"
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o"
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o"
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

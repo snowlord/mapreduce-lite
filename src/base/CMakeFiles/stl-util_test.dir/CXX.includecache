@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/stl-util_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/stl-util_test.cc
 vector
 -
 map
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/gtest/gtest.h
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/common.h
 src/base/stl-util.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/stl-util.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/stl-util.h
 
 src/base/common.h
 stdlib.h

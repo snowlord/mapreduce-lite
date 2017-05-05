@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/cvector_test.cc" "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.o"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/cvector_test.cc" "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/cvector_test.dir/cvector_test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/DependInfo.cmake"
+  "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/CMakeFiles/base.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

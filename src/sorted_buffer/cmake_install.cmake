@@ -1,4 +1,4 @@
-# Install script for directory: /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer
+# Install script for directory: /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,15 +33,15 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/libsorted_buffer.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/libsorted_buffer.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paralgo/sorted_buffer" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.h"
     )
 endif()
 

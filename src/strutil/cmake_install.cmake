@@ -1,4 +1,4 @@
-# Install script for directory: /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil
+# Install script for directory: /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,15 +33,15 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/libstrutil.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/libstrutil.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paralgo/strutil" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/join_strings.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/strcodec.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/split_string.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/stringprintf.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/join_strings.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/strcodec.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/split_string.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/stringprintf.h"
     )
 endif()
 

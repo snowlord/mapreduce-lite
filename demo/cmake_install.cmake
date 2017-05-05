@@ -1,4 +1,4 @@
-# Install script for directory: /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo
+# Install script for directory: /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,25 +33,25 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mrlite-demo" TYPE EXECUTABLE FILES "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mrlite-demo" TYPE EXECUTABLE FILES "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/CMakeFiles/CMakeRelink.dir/mrl-wordcount")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mrlite-demo" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/README"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount.cc"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/Makefile"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/Makefile.rules"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount_run_locally.sh"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount_batch_reduction_mode.sh"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/wordcount_incremental_reduction_mode.sh"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/README"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount.cc"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/Makefile"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/Makefile.rules"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount_run_locally.sh"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount_batch_reduction_mode.sh"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/wordcount_incremental_reduction_mode.sh"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/mrlite-demo/testdata" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/testdata/text-00000-of-00002"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/testdata/text-00001-of-00002"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/testdata/text-00000-of-00002"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/testdata/text-00001-of-00002"
     )
 endif()
 

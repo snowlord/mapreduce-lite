@@ -1,4 +1,4 @@
-# Install script for directory: /home/liaolinwei/mesosFwk/mapreduce-lite
+# Install script for directory: /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/cmake_install.cmake")
-  include("/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/cmake_install.cmake")
-  include("/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/cmake_install.cmake")
-  include("/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/cmake_install.cmake")
-  include("/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/cmake_install.cmake")
-  include("/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/cmake_install.cmake")
+  include("/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/cmake_install.cmake")
+  include("/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/cmake_install.cmake")
+  include("/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/cmake_install.cmake")
+  include("/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/cmake_install.cmake")
+  include("/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/cmake_install.cmake")
+  include("/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/cmake_install.cmake")
+  include("/home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/liaolinwei/mesosFwk/mapreduce-lite/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

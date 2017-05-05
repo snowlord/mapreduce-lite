@@ -1,4 +1,4 @@
-# Install script for directory: /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite
+# Install script for directory: /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,37 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/libmapreduce_lite.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/paralgo" TYPE STATIC_LIBRARY FILES "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/libmapreduce_lite.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/paralgo/mapreduce_lite" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/socket_communicator.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/flags.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/reader.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/signaling_queue.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/protofile.pb.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/communicator.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/protofile.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/tcp_socket.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/mapreduce_lite.h"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/utils.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/socket_communicator.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/flags.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/reader.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/signaling_queue.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/protofile.pb.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/communicator.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/protofile.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/tcp_socket.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/mapreduce_lite.h"
+    "/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/utils.h"
     )
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/scheduler" TYPE FILE FILES
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/scheduler/mrlite.py"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/scheduler/mrlite_options_test.py"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/scheduler/worker.py"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/scheduler/util.py"
-    "/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/scheduler/mrlite_options.py"
-    )
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/cmake_install.cmake")
-
 endif()
 

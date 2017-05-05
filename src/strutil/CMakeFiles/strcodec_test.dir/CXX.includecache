@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/strcodec_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/strcodec_test.cc
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/gtest/gtest.h
 src/strutil/strcodec.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/strutil/strcodec.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/strutil/strcodec.h
 
 src/base/common.h
 stdlib.h

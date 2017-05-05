@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/protofile_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/protofile_test.cc
 stdio.h
 -
 string
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/base/common.h
 src/mapreduce_lite/protofile.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/protofile.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/protofile.h
 src/mapreduce_lite/protofile.pb.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/protofile.pb.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/protofile.pb.h
 
 src/base/common.h
 stdlib.h

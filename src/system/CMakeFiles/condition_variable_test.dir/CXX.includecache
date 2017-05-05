@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/condition_variable_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/condition_variable_test.cc
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/gtest/gtest.h
 src/system/condition_variable.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/src/system/condition_variable.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/src/system/condition_variable.h
 
 src/base/common.h
 stdlib.h

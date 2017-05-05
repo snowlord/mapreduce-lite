@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece_less_than_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece_less_than_test.cc
 string.h
 -
 map
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/gtest/gtest.h
 src/sorted_buffer/sorted_buffer.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/src/sorted_buffer/sorted_buffer.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/src/sorted_buffer/sorted_buffer.h
 
 src/base/common.h
 stdlib.h

@@ -36,4 +36,4 @@ install(FILES ${HEADER_FILES} DESTINATION include/paralgo/mapreduce_lite)
 install(FILES ${PYTHON_FILES} DESTINATION scheduler)
 
 # Build demo
-add_subdirectory(demo)
+#add_subdirectory(demo)

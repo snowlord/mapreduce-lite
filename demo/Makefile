@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/demo/CMakeFiles/progress.marks
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/develop/mesosFwk/mapreduce-lite/demo/CMakeFiles/progress.marks
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/demo/clean
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,37 +130,37 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/demo/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/demo/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/rule
-.PHONY : src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/rule
+demo/CMakeFiles/mrl-wordcount.dir/rule:
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 demo/CMakeFiles/mrl-wordcount.dir/rule
+.PHONY : demo/CMakeFiles/mrl-wordcount.dir/rule
 
 # Convenience name for target.
-mrl-wordcount: src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/rule
+mrl-wordcount: demo/CMakeFiles/mrl-wordcount.dir/rule
 
 .PHONY : mrl-wordcount
 
 # fast build rule for target.
 mrl-wordcount/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f demo/CMakeFiles/mrl-wordcount.dir/build.make demo/CMakeFiles/mrl-wordcount.dir/build
 .PHONY : mrl-wordcount/fast
 
 # Manual pre-install relink rule for target.
 mrl-wordcount/preinstall:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 demo/CMakeFiles/mrl-wordcount.dir/preinstall
 .PHONY : mrl-wordcount/preinstall
 
 wordcount.o: wordcount.cc.o
@@ -169,7 +169,7 @@ wordcount.o: wordcount.cc.o
 
 # target to build an object file
 wordcount.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f demo/CMakeFiles/mrl-wordcount.dir/build.make demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.o
 .PHONY : wordcount.cc.o
 
 wordcount.i: wordcount.cc.i
@@ -178,7 +178,7 @@ wordcount.i: wordcount.cc.i
 
 # target to preprocess a source file
 wordcount.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f demo/CMakeFiles/mrl-wordcount.dir/build.make demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.i
 .PHONY : wordcount.cc.i
 
 wordcount.s: wordcount.cc.s
@@ -187,7 +187,7 @@ wordcount.s: wordcount.cc.s
 
 # target to generate assembly for a file
 wordcount.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f demo/CMakeFiles/mrl-wordcount.dir/build.make demo/CMakeFiles/mrl-wordcount.dir/wordcount.cc.s
 .PHONY : wordcount.cc.s
 
 # Help Target
@@ -216,6 +216,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

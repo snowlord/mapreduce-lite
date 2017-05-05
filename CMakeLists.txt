@@ -149,3 +149,6 @@ add_subdirectory(src/hash)
 add_subdirectory(src/system)
 add_subdirectory(src/sorted_buffer)
 add_subdirectory(src/mapreduce_lite)
+
+#add demo
+add_subdirectory(demo)

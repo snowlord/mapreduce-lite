@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/condition_variable.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/condition_variable.cc
 src/system/condition_variable.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/src/system/condition_variable.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/src/system/condition_variable.h
 assert.h
 -
 sys/time.h
@@ -18,11 +18,11 @@ stdexcept
 string
 -
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/filepattern.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/filepattern.cc
 src/system/filepattern.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/src/system/filepattern.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/src/system/filepattern.h
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/system/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/system/src/base/common.h
 
 src/base/common.h
 stdlib.h

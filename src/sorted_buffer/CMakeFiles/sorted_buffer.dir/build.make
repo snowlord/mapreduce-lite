@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # Include any dependencies generated for this target.
 include src/sorted_buffer/CMakeFiles/sorted_buffer.dir/depend.make
@@ -59,16 +59,16 @@ include src/sorted_buffer/CMakeFiles/sorted_buffer.dir/flags.make
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/flags.make
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o: src/sorted_buffer/memory_allocator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sorted_buffer.dir/memory_allocator.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc > CMakeFiles/sorted_buffer.dir/memory_allocator.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc > CMakeFiles/sorted_buffer.dir/memory_allocator.cc.i
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorted_buffer.dir/memory_allocator.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc -o CMakeFiles/sorted_buffer.dir/memory_allocator.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_allocator.cc -o CMakeFiles/sorted_buffer.dir/memory_allocator.cc.s
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o.requires:
 
@@ -83,16 +83,16 @@ src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_allocator.cc.o.provides.bu
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/flags.make
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o: src/sorted_buffer/memory_piece.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/memory_piece.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/memory_piece.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sorted_buffer.dir/memory_piece.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc > CMakeFiles/sorted_buffer.dir/memory_piece.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc > CMakeFiles/sorted_buffer.dir/memory_piece.cc.i
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorted_buffer.dir/memory_piece.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc -o CMakeFiles/sorted_buffer.dir/memory_piece.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece.cc -o CMakeFiles/sorted_buffer.dir/memory_piece.cc.s
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o.requires:
 
@@ -107,16 +107,16 @@ src/sorted_buffer/CMakeFiles/sorted_buffer.dir/memory_piece.cc.o.provides.build:
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/flags.make
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o: src/sorted_buffer/sorted_buffer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc > CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc > CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.i
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc -o CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer.cc -o CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.s
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o.requires:
 
@@ -131,16 +131,16 @@ src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer.cc.o.provides.build
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/flags.make
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o: src/sorted_buffer/sorted_buffer_iterator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc > CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc > CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.i
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc -o CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/sorted_buffer_iterator.cc -o CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.s
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o.requires:
 
@@ -169,9 +169,9 @@ src/sorted_buffer/libsorted_buffer.a: src/sorted_buffer/CMakeFiles/sorted_buffer
 src/sorted_buffer/libsorted_buffer.a: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/sorted_buffer_iterator.cc.o
 src/sorted_buffer/libsorted_buffer.a: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build.make
 src/sorted_buffer/libsorted_buffer.a: src/sorted_buffer/CMakeFiles/sorted_buffer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsorted_buffer.a"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && $(CMAKE_COMMAND) -P CMakeFiles/sorted_buffer.dir/cmake_clean_target.cmake
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorted_buffer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsorted_buffer.a"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && $(CMAKE_COMMAND) -P CMakeFiles/sorted_buffer.dir/cmake_clean_target.cmake
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorted_buffer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/build: src/sorted_buffer/libsorted_buffer.a
@@ -186,10 +186,10 @@ src/sorted_buffer/CMakeFiles/sorted_buffer.dir/requires: src/sorted_buffer/CMake
 .PHONY : src/sorted_buffer/CMakeFiles/sorted_buffer.dir/requires
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer && $(CMAKE_COMMAND) -P CMakeFiles/sorted_buffer.dir/cmake_clean.cmake
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer && $(CMAKE_COMMAND) -P CMakeFiles/sorted_buffer.dir/cmake_clean.cmake
 .PHONY : src/sorted_buffer/CMakeFiles/sorted_buffer.dir/clean
 
 src/sorted_buffer/CMakeFiles/sorted_buffer.dir/depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer /home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/CMakeFiles/sorted_buffer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/sorted_buffer/CMakeFiles/sorted_buffer.dir/depend
 

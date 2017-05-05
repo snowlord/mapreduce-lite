@@ -65,5 +65,6 @@ Please refer to the [HowToInstall](doc/install.md) document.
   1. 2013-10-4: MapReduce Lite supports Mac OS X and FreeBSD in addition to Linux. You can build your MapReduce Lite programs using GCC or Clang.
 
 
-## 
- resource manager mesos
+## TODO 
+ 1,support hdfs
+ 2,add resource manager mesos

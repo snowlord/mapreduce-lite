@@ -6,5 +6,5 @@ CXX_FLAGS =    -Wall -Wno-sign-compare -Werror -O2
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/liaolinwei/mesosFwk/mapreduce-lite -I/include 
+CXX_INCLUDES = -I/home/liaolinwei/develop/mesosFwk/mapreduce-lite -I/include 
 

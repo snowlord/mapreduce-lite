@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/join_strings_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/join_strings_test.cc
 src/strutil/join_strings.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/strutil/join_strings.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/strutil/join_strings.h
 list
 -
 set
@@ -18,7 +18,7 @@ string
 vector
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/gtest/gtest.h
 
 src/strutil/join_strings.h
 string

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/split_string.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/split_string.cc
 src/strutil/split_string.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/strutil/split_string.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/strutil/split_string.h
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/base/common.h
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc
 string.h
 -
 iomanip
@@ -20,15 +20,15 @@ iomanip
 sstream
 -
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/base/common.h
 src/strutil/strcodec.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/strutil/strcodec.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/strutil/strcodec.h
 src/strutil/stringprintf.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/strutil/stringprintf.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/strutil/stringprintf.h
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc
 src/strutil/stringprintf.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/strutil/stringprintf.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/src/strutil/stringprintf.h
 stdarg.h
 -
 stdio.h

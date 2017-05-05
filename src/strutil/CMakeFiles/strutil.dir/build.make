@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # Include any dependencies generated for this target.
 include src/strutil/CMakeFiles/strutil.dir/depend.make
@@ -59,16 +59,16 @@ include src/strutil/CMakeFiles/strutil.dir/flags.make
 
 src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o: src/strutil/CMakeFiles/strutil.dir/flags.make
 src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o: src/strutil/strcodec.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/strutil.dir/strcodec.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/strutil.dir/strcodec.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc
 
 src/strutil/CMakeFiles/strutil.dir/strcodec.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/strutil.dir/strcodec.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc > CMakeFiles/strutil.dir/strcodec.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc > CMakeFiles/strutil.dir/strcodec.cc.i
 
 src/strutil/CMakeFiles/strutil.dir/strcodec.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/strutil.dir/strcodec.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc -o CMakeFiles/strutil.dir/strcodec.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/strcodec.cc -o CMakeFiles/strutil.dir/strcodec.cc.s
 
 src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o.requires:
 
@@ -83,16 +83,16 @@ src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o.provides.build: src/strutil/CMa
 
 src/strutil/CMakeFiles/strutil.dir/split_string.cc.o: src/strutil/CMakeFiles/strutil.dir/flags.make
 src/strutil/CMakeFiles/strutil.dir/split_string.cc.o: src/strutil/split_string.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/strutil/CMakeFiles/strutil.dir/split_string.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/strutil.dir/split_string.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/split_string.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/strutil/CMakeFiles/strutil.dir/split_string.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/strutil.dir/split_string.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/split_string.cc
 
 src/strutil/CMakeFiles/strutil.dir/split_string.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/strutil.dir/split_string.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/split_string.cc > CMakeFiles/strutil.dir/split_string.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/split_string.cc > CMakeFiles/strutil.dir/split_string.cc.i
 
 src/strutil/CMakeFiles/strutil.dir/split_string.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/strutil.dir/split_string.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/split_string.cc -o CMakeFiles/strutil.dir/split_string.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/split_string.cc -o CMakeFiles/strutil.dir/split_string.cc.s
 
 src/strutil/CMakeFiles/strutil.dir/split_string.cc.o.requires:
 
@@ -107,16 +107,16 @@ src/strutil/CMakeFiles/strutil.dir/split_string.cc.o.provides.build: src/strutil
 
 src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o: src/strutil/CMakeFiles/strutil.dir/flags.make
 src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o: src/strutil/stringprintf.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/strutil.dir/stringprintf.cc.o -c /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/strutil.dir/stringprintf.cc.o -c /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc
 
 src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/strutil.dir/stringprintf.cc.i"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc > CMakeFiles/strutil.dir/stringprintf.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc > CMakeFiles/strutil.dir/stringprintf.cc.i
 
 src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/strutil.dir/stringprintf.cc.s"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc -o CMakeFiles/strutil.dir/stringprintf.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/stringprintf.cc -o CMakeFiles/strutil.dir/stringprintf.cc.s
 
 src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o.requires:
 
@@ -143,9 +143,9 @@ src/strutil/libstrutil.a: src/strutil/CMakeFiles/strutil.dir/split_string.cc.o
 src/strutil/libstrutil.a: src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o
 src/strutil/libstrutil.a: src/strutil/CMakeFiles/strutil.dir/build.make
 src/strutil/libstrutil.a: src/strutil/CMakeFiles/strutil.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libstrutil.a"
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && $(CMAKE_COMMAND) -P CMakeFiles/strutil.dir/cmake_clean_target.cmake
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/strutil.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libstrutil.a"
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && $(CMAKE_COMMAND) -P CMakeFiles/strutil.dir/cmake_clean_target.cmake
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/strutil.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/strutil/CMakeFiles/strutil.dir/build: src/strutil/libstrutil.a
@@ -159,10 +159,10 @@ src/strutil/CMakeFiles/strutil.dir/requires: src/strutil/CMakeFiles/strutil.dir/
 .PHONY : src/strutil/CMakeFiles/strutil.dir/requires
 
 src/strutil/CMakeFiles/strutil.dir/clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil && $(CMAKE_COMMAND) -P CMakeFiles/strutil.dir/cmake_clean.cmake
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil && $(CMAKE_COMMAND) -P CMakeFiles/strutil.dir/cmake_clean.cmake
 .PHONY : src/strutil/CMakeFiles/strutil.dir/clean
 
 src/strutil/CMakeFiles/strutil.dir/depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil /home/liaolinwei/mesosFwk/mapreduce-lite /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/CMakeFiles/strutil.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil /home/liaolinwei/develop/mesosFwk/mapreduce-lite /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/CMakeFiles/strutil.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/strutil/CMakeFiles/strutil.dir/depend
 

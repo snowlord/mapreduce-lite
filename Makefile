@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,9 +113,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -569,12 +569,12 @@ mrl-wordcount: cmake_check_build_system
 
 # fast build rule for target.
 mrl-wordcount/fast:
-	$(MAKE) -f src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build
+	$(MAKE) -f demo/CMakeFiles/mrl-wordcount.dir/build.make demo/CMakeFiles/mrl-wordcount.dir/build
 .PHONY : mrl-wordcount/fast
 
 # Manual pre-install relink rule for target.
 mrl-wordcount/preinstall:
-	$(MAKE) -f src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/build.make src/mapreduce_lite/demo/CMakeFiles/mrl-wordcount.dir/preinstall
+	$(MAKE) -f demo/CMakeFiles/mrl-wordcount.dir/build.make demo/CMakeFiles/mrl-wordcount.dir/preinstall
 .PHONY : mrl-wordcount/preinstall
 
 # Help Target

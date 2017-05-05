@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test.cc
 src/base/class_register.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/class_register.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/class_register.h
 src/base/class_register_test_helper.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/class_register_test_helper.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/class_register_test_helper.h
 src/base/scoped_ptr.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/scoped_ptr.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/scoped_ptr.h
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/gtest/gtest.h
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/class_register_test_helper.cc
 src/base/class_register_test_helper.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/class_register_test_helper.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/class_register_test_helper.h
 
 src/base/class_register.h
 class_register.h

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/tcp_socket_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/tcp_socket_test.cc
 src/mapreduce_lite/tcp_socket.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/tcp_socket.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/tcp_socket.h
 string.h
 -
 unistd.h
@@ -16,9 +16,9 @@ unistd.h
 string
 -
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/base/common.h
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
 
 src/base/common.h
 stdlib.h

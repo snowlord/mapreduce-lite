@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/varint32_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/varint32_test.cc
 src/base/varint32.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/varint32.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/varint32.h
 fstream
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/gtest/gtest.h
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/base/src/base/common.h
 
 src/base/common.h
 stdlib.h

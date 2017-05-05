@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_SOURCE_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liaolinwei/mesosFwk/mapreduce-lite
+CMAKE_BINARY_DIR = /home/liaolinwei/develop/mesosFwk/mapreduce-lite
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -113,14 +113,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/CMakeFiles/progress.marks
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/mesosFwk/mapreduce-lite/CMakeFiles 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles /home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/strutil/CMakeFiles/progress.marks
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liaolinwei/develop/mesosFwk/mapreduce-lite/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/clean
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/clean
 .PHONY : clean
 
 # The main clean target
@@ -130,22 +130,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/preinstall
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/strutil/CMakeFiles/strutil.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/strutil.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/strutil.dir/rule
 .PHONY : src/strutil/CMakeFiles/strutil.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ strutil: src/strutil/CMakeFiles/strutil.dir/rule
 
 # fast build rule for target.
 strutil/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/build
 .PHONY : strutil/fast
 
 # Convenience name for target.
 src/strutil/CMakeFiles/split_string_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/split_string_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/split_string_test.dir/rule
 .PHONY : src/strutil/CMakeFiles/split_string_test.dir/rule
 
 # Convenience name for target.
@@ -170,12 +170,12 @@ split_string_test: src/strutil/CMakeFiles/split_string_test.dir/rule
 
 # fast build rule for target.
 split_string_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/build
 .PHONY : split_string_test/fast
 
 # Convenience name for target.
 src/strutil/CMakeFiles/strcodec_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/strcodec_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/strcodec_test.dir/rule
 .PHONY : src/strutil/CMakeFiles/strcodec_test.dir/rule
 
 # Convenience name for target.
@@ -185,12 +185,12 @@ strcodec_test: src/strutil/CMakeFiles/strcodec_test.dir/rule
 
 # fast build rule for target.
 strcodec_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/build
 .PHONY : strcodec_test/fast
 
 # Convenience name for target.
 src/strutil/CMakeFiles/join_strings_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/join_strings_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/join_strings_test.dir/rule
 .PHONY : src/strutil/CMakeFiles/join_strings_test.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ join_strings_test: src/strutil/CMakeFiles/join_strings_test.dir/rule
 
 # fast build rule for target.
 join_strings_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/build
 .PHONY : join_strings_test/fast
 
 # Convenience name for target.
 src/strutil/CMakeFiles/stringprintf_test.dir/rule:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/stringprintf_test.dir/rule
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f CMakeFiles/Makefile2 src/strutil/CMakeFiles/stringprintf_test.dir/rule
 .PHONY : src/strutil/CMakeFiles/stringprintf_test.dir/rule
 
 # Convenience name for target.
@@ -215,7 +215,7 @@ stringprintf_test: src/strutil/CMakeFiles/stringprintf_test.dir/rule
 
 # fast build rule for target.
 stringprintf_test/fast:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/build
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/build
 .PHONY : stringprintf_test/fast
 
 join_strings_test.o: join_strings_test.cc.o
@@ -224,7 +224,7 @@ join_strings_test.o: join_strings_test.cc.o
 
 # target to build an object file
 join_strings_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/join_strings_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/join_strings_test.cc.o
 .PHONY : join_strings_test.cc.o
 
 join_strings_test.i: join_strings_test.cc.i
@@ -233,7 +233,7 @@ join_strings_test.i: join_strings_test.cc.i
 
 # target to preprocess a source file
 join_strings_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/join_strings_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/join_strings_test.cc.i
 .PHONY : join_strings_test.cc.i
 
 join_strings_test.s: join_strings_test.cc.s
@@ -242,7 +242,7 @@ join_strings_test.s: join_strings_test.cc.s
 
 # target to generate assembly for a file
 join_strings_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/join_strings_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/join_strings_test.dir/build.make src/strutil/CMakeFiles/join_strings_test.dir/join_strings_test.cc.s
 .PHONY : join_strings_test.cc.s
 
 split_string.o: split_string.cc.o
@@ -251,7 +251,7 @@ split_string.o: split_string.cc.o
 
 # target to build an object file
 split_string.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/split_string.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/split_string.cc.o
 .PHONY : split_string.cc.o
 
 split_string.i: split_string.cc.i
@@ -260,7 +260,7 @@ split_string.i: split_string.cc.i
 
 # target to preprocess a source file
 split_string.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/split_string.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/split_string.cc.i
 .PHONY : split_string.cc.i
 
 split_string.s: split_string.cc.s
@@ -269,7 +269,7 @@ split_string.s: split_string.cc.s
 
 # target to generate assembly for a file
 split_string.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/split_string.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/split_string.cc.s
 .PHONY : split_string.cc.s
 
 split_string_test.o: split_string_test.cc.o
@@ -278,7 +278,7 @@ split_string_test.o: split_string_test.cc.o
 
 # target to build an object file
 split_string_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/split_string_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/split_string_test.cc.o
 .PHONY : split_string_test.cc.o
 
 split_string_test.i: split_string_test.cc.i
@@ -287,7 +287,7 @@ split_string_test.i: split_string_test.cc.i
 
 # target to preprocess a source file
 split_string_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/split_string_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/split_string_test.cc.i
 .PHONY : split_string_test.cc.i
 
 split_string_test.s: split_string_test.cc.s
@@ -296,7 +296,7 @@ split_string_test.s: split_string_test.cc.s
 
 # target to generate assembly for a file
 split_string_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/split_string_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/split_string_test.dir/build.make src/strutil/CMakeFiles/split_string_test.dir/split_string_test.cc.s
 .PHONY : split_string_test.cc.s
 
 strcodec.o: strcodec.cc.o
@@ -305,7 +305,7 @@ strcodec.o: strcodec.cc.o
 
 # target to build an object file
 strcodec.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/strcodec.cc.o
 .PHONY : strcodec.cc.o
 
 strcodec.i: strcodec.cc.i
@@ -314,7 +314,7 @@ strcodec.i: strcodec.cc.i
 
 # target to preprocess a source file
 strcodec.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/strcodec.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/strcodec.cc.i
 .PHONY : strcodec.cc.i
 
 strcodec.s: strcodec.cc.s
@@ -323,7 +323,7 @@ strcodec.s: strcodec.cc.s
 
 # target to generate assembly for a file
 strcodec.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/strcodec.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/strcodec.cc.s
 .PHONY : strcodec.cc.s
 
 strcodec_test.o: strcodec_test.cc.o
@@ -332,7 +332,7 @@ strcodec_test.o: strcodec_test.cc.o
 
 # target to build an object file
 strcodec_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/strcodec_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/strcodec_test.cc.o
 .PHONY : strcodec_test.cc.o
 
 strcodec_test.i: strcodec_test.cc.i
@@ -341,7 +341,7 @@ strcodec_test.i: strcodec_test.cc.i
 
 # target to preprocess a source file
 strcodec_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/strcodec_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/strcodec_test.cc.i
 .PHONY : strcodec_test.cc.i
 
 strcodec_test.s: strcodec_test.cc.s
@@ -350,7 +350,7 @@ strcodec_test.s: strcodec_test.cc.s
 
 # target to generate assembly for a file
 strcodec_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/strcodec_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strcodec_test.dir/build.make src/strutil/CMakeFiles/strcodec_test.dir/strcodec_test.cc.s
 .PHONY : strcodec_test.cc.s
 
 stringprintf.o: stringprintf.cc.o
@@ -359,7 +359,7 @@ stringprintf.o: stringprintf.cc.o
 
 # target to build an object file
 stringprintf.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.o
 .PHONY : stringprintf.cc.o
 
 stringprintf.i: stringprintf.cc.i
@@ -368,7 +368,7 @@ stringprintf.i: stringprintf.cc.i
 
 # target to preprocess a source file
 stringprintf.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.i
 .PHONY : stringprintf.cc.i
 
 stringprintf.s: stringprintf.cc.s
@@ -377,7 +377,7 @@ stringprintf.s: stringprintf.cc.s
 
 # target to generate assembly for a file
 stringprintf.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/strutil.dir/build.make src/strutil/CMakeFiles/strutil.dir/stringprintf.cc.s
 .PHONY : stringprintf.cc.s
 
 stringprintf_test.o: stringprintf_test.cc.o
@@ -386,7 +386,7 @@ stringprintf_test.o: stringprintf_test.cc.o
 
 # target to build an object file
 stringprintf_test.cc.o:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/stringprintf_test.cc.o
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/stringprintf_test.cc.o
 .PHONY : stringprintf_test.cc.o
 
 stringprintf_test.i: stringprintf_test.cc.i
@@ -395,7 +395,7 @@ stringprintf_test.i: stringprintf_test.cc.i
 
 # target to preprocess a source file
 stringprintf_test.cc.i:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/stringprintf_test.cc.i
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/stringprintf_test.cc.i
 .PHONY : stringprintf_test.cc.i
 
 stringprintf_test.s: stringprintf_test.cc.s
@@ -404,7 +404,7 @@ stringprintf_test.s: stringprintf_test.cc.s
 
 # target to generate assembly for a file
 stringprintf_test.cc.s:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/stringprintf_test.cc.s
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(MAKE) -f src/strutil/CMakeFiles/stringprintf_test.dir/build.make src/strutil/CMakeFiles/stringprintf_test.dir/stringprintf_test.cc.s
 .PHONY : stringprintf_test.cc.s
 
 # Help Target
@@ -455,6 +455,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/liaolinwei/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/liaolinwei/develop/mesosFwk/mapreduce-lite && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

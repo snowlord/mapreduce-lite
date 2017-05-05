@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/md5_hash_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/md5_hash_test.cc
 stdio.h
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/gtest/gtest.h
 src/base/common.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/src/base/common.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/src/base/common.h
 src/hash/md5_hash.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/hash/src/hash/md5_hash.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/hash/src/hash/md5_hash.h
 
 src/base/common.h
 stdlib.h

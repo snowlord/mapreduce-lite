@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/memory_piece_test.cc
 gtest/gtest.h
 -
 src/sorted_buffer/memory_piece.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/sorted_buffer/src/sorted_buffer/memory_piece.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/sorted_buffer/src/sorted_buffer/memory_piece.h
 
 src/base/common.h
 stdlib.h

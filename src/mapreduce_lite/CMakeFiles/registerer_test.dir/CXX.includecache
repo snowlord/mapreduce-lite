@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/registerer_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/registerer_test.cc
 string
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
 src/mapreduce_lite/mapreduce_lite.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/mapreduce_lite.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/mapreduce_lite.h
 
 src/base/class_register.h
 class_register.h

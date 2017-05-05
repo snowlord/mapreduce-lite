@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/socket_communicator_test.cc
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/socket_communicator_test.cc
 src/mapreduce_lite/socket_communicator.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/socket_communicator.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/mapreduce_lite/socket_communicator.h
 unistd.h
 -
 iostream
@@ -18,9 +18,9 @@ string
 vector
 -
 gtest/gtest.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/gtest/gtest.h
 src/strutil/split_string.h
-/home/liaolinwei/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/strutil/split_string.h
+/home/liaolinwei/develop/mesosFwk/mapreduce-lite/src/mapreduce_lite/src/strutil/split_string.h
 
 src/base/common.h
 stdlib.h
