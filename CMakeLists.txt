@@ -121,7 +121,7 @@ include_directories(
   "${PROJECT_SOURCE_DIR}"
   "${PROJECT_BINARY_DIR}"
   "${PROTOBUF_INCLUDE_DIRS}"
-  "${PROJECT_SOURCE_DIR}/src/gtest/include"
+#  "${PROJECT_SOURCE_DIR}/src/gtest/include"
   "${BOOST_DIR}/include"
   "${GFLAGS_DIR}/include"
   "${LIBEVENT_DIR}/include"
@@ -142,7 +142,7 @@ link_directories(
 #------------------------------------------------------------------------------
 # Declare packages in paralgo project.
 #------------------------------------------------------------------------------
-add_subdirectory(src/gtest)
+#add_subdirectory(src/gtest)
 add_subdirectory(src/base)
 add_subdirectory(src/strutil)
 add_subdirectory(src/hash)

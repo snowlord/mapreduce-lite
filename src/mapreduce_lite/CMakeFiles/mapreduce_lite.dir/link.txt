@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmapreduce_lite.a  CMakeFiles/mapreduce_lite.dir/protofile.pb.cc.o CMakeFiles/mapreduce_lite.dir/flags.cc.o CMakeFiles/mapreduce_lite.dir/mapreduce_lite.cc.o CMakeFiles/mapreduce_lite.dir/mapreduce_main.cc.o CMakeFiles/mapreduce_lite.dir/protofile.cc.o CMakeFiles/mapreduce_lite.dir/reader.cc.o CMakeFiles/mapreduce_lite.dir/signaling_queue.cc.o CMakeFiles/mapreduce_lite.dir/socket_communicator.cc.o CMakeFiles/mapreduce_lite.dir/tcp_socket.cc.o
+/usr/bin/ranlib libmapreduce_lite.a

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/stl-util_test.cc
+vector
+-
+map
+-
+gtest/gtest.h
+/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/gtest/gtest.h
+src/base/common.h
+/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/common.h
+src/base/stl-util.h
+/home/liaolinwei/mesosFwk/mapreduce-lite/src/base/src/base/stl-util.h
+
+src/base/common.h
+stdlib.h
+-
+stdint.h
+-
+base/stdint_msvc.h
+src/base/base/stdint_msvc.h
+gflags/gflags.h
+src/base/gflags/gflags.h
+src/base/logging.h
+src/base/src/base/logging.h
+
+src/base/logging.h
+fstream
+-
+iomanip
+-
+iostream
+-
+string
+-
+
+src/base/stl-util.h
+

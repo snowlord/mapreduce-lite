@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+51682c3c705dd3c405ded58a00d881d6 src/mapreduce_lite/protofile.pb.cc

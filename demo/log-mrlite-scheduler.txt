@@ -1,0 +1,14 @@
+INFO     2017-05-05 00:00:52,963 mrlite.py:254 ] Job started at Fri May  5 00:00:52 2017
+INFO     2017-05-05 00:00:52,970 mrlite.py:84 ] Copy binary executable and python scripts to machines
+INFO     2017-05-05 00:00:53,556 mrlite.py:180 ] Mapreduce-Lite begin to work in BATCH mode
+INFO     2017-05-05 00:00:53,556 mrlite.py:181 ] Start socket communicators
+DEBUG    2017-05-05 00:00:53,835 mrlite.py:125 ] Socket communicator 1 started at ('192.168.12.215', 58612) pid=2996
+DEBUG    2017-05-05 00:00:53,871 mrlite.py:125 ] Socket communicator 2 started at ('192.168.12.179', 55172) pid=11730
+DEBUG    2017-05-05 00:00:53,872 mrlite.py:125 ] Socket communicator 0 started at ('192.168.12.179', 55170) pid=11729
+INFO     2017-05-05 00:00:53,872 mrlite.py:149 ] Start 2 map workers
+INFO     2017-05-05 00:00:54,597 mrlite.py:154 ] Start 1 reduce workers
+DEBUG    2017-05-05 00:00:55,120 mrlite.py:220 ] Mapper-0(192.168.12.179, WordCountMapper) finished well
+DEBUG    2017-05-05 00:00:55,120 mrlite.py:220 ] Mapper-1(192.168.12.215, WordCountMapperWithCombiner) finished well
+DEBUG    2017-05-05 00:00:55,120 mrlite.py:220 ] Reducer-0(192.168.12.179, WordCountBatchReducer) finished well
+INFO     2017-05-05 00:00:55,121 mrlite.py:262 ] Job finished at Fri May  5 00:00:55 2017
+INFO     2017-05-05 00:00:55,124 mrlite.py:263 ] Job run for 2.161 seconds

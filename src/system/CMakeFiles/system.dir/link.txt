@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsystem.a  CMakeFiles/system.dir/condition_variable.cc.o CMakeFiles/system.dir/filepattern.cc.o
+/usr/bin/ranlib libsystem.a

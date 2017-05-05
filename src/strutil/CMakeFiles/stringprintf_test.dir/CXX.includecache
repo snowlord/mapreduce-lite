@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/stringprintf_test.cc
+src/strutil/stringprintf.h
+/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/src/strutil/stringprintf.h
+gtest/gtest.h
+/home/liaolinwei/mesosFwk/mapreduce-lite/src/strutil/gtest/gtest.h
+
+src/strutil/stringprintf.h
+string
+-
+
